@@ -1,5 +1,5 @@
-@import './holy-grail.css'
-@import './tags.css'
+@import './holy-grail.css';
+@import './tags.css';
 
 :root {
   --rem: 3.8vw;
