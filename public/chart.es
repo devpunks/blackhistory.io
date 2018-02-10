@@ -3,7 +3,6 @@ var
     document.querySelector
       `canvas`.getContext('2d')
 
-
 new Chart (ctx, {
 
   type: 'line'
