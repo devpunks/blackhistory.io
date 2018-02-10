@@ -12,8 +12,8 @@
 module.exports = {
   "ui": false
 , "proxy": proxy
-, "logPrefix": "BlackHistory.io"
 , "startPath": "index.html"
+, "logPrefix": "BlackHistory.io"
 , "port": process.env.BROWSER_SYNC_PORT
 , "files": [] // since we explicitly fire reload from watch
 }
