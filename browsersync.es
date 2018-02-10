@@ -11,6 +11,7 @@
 
 module.exports = {
   "ui": false
+, "port": 8989
 , "proxy": proxy
 , "startPath": "index.html"
 , "logPrefix": "BlackHistory.io"
