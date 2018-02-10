@@ -3,6 +3,12 @@
  |   http://www.browsersync.io/docs/options/
  */
 
+  const
+    port  = 3000
+  , proxy = `http://localhost:${port}`
+
+  console.log ('PROXY', proxy)
+
 module.exports = {
   "ui": false
 , "port": 8989
