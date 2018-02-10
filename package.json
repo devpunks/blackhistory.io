@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/devpunks/blackhistory.io/issues"
   },
-  "homepage": "https://github.com/devpunks/blackhistory.io#readme"
+  "homepage": "https://github.com/devpunks/blackhistory.io#readme",
+  "dependencies": {
+    "koa": "^2.4.1"
+  }
 }
