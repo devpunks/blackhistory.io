@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/devpunks/blackhistory.io#readme",
   "dependencies": {
-    "koa": "^2.4.1"
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2"
   }
 }
