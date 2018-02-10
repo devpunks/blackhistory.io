@@ -4,6 +4,6 @@ const
 
   server
 
-    .use ( require ('koa-static') (__dirname + './') )
+    .use ( require ('koa-static') ('public') )
 
     .listen ( port )
