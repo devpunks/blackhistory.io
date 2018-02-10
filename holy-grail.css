@@ -5,3 +5,8 @@
   --darkest:  #444;
 }
 
+html   { background: red }
+body   { background: var(--darkest) }
+main   { background: var(--lightest) }
+aside  { background: var(--lighter) }
+header, footer { background: var(--darker) }
