@@ -81,7 +81,8 @@ img { width: 100%; height: auto }
 
 /* Use golden mean God number */
 
-.small { font-size: 80 }
+.small { font-size: 80% }
+.smaller { font-size: 80 }
 
 
 // https://zellwk.com/blog/why-vertical-rhythms
