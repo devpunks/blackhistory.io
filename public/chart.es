@@ -28,7 +28,7 @@ new Chart (ctx, {
 
       , label: 'BTC - Bitcoin'
 
-      , data: [12, 19, 3, 5, 2, 3]
+      , data: [13.56, 757, 314, 430, 997, 8367]
 
       , backgroundColor:
           [ 'rgba(255, 255, 255, 0.1)' ]
