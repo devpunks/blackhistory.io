@@ -26,7 +26,7 @@ new Chart (ctx, {
       {
         borderWidth: 2
 
-      , label: '# of Votes'
+      , label: 'BTC - Bitcoin'
 
       , data: [12, 19, 3, 5, 2, 3]
 
