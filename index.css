@@ -81,8 +81,8 @@ img { width: 100%; height: auto }
 
 /* Use golden mean God number */
 
-.small { font-size: 80% }
-.smaller { font-size: 60% }
+.small    { font-size: 80% }
+.smaller  { font-size: 60% }
 .smallest { font-size: 40% }
 
 
