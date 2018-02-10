@@ -15,5 +15,5 @@ module.exports = {
 , "proxy": proxy
 , "startPath": "index.html"
 , "logPrefix": "BlackHistory.io"
-, "files": [] // since we explicitly fire reload from watch
+, "files": ['public'] // since we explicitly fire reload from watch
 }
