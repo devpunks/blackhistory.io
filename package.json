@@ -5,7 +5,7 @@
   "main": "y",
   "scripts": {
     "start": "node server.es",
-    "browse": "PORT=8989 browser-sync --config=./browsersync.es",
+    "browse": "PORT=3000 node server.es & BROWSER_SYNC_PORT=8989 browser-sync start --config ./browsersync.es",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
