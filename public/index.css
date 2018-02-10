@@ -54,7 +54,7 @@ html * {
 body { padding: 1.612em 0 }
 
 body > *, body > header > p {
-  margin: var(--margin);
+  margin: 0;
   margin-bottom: 1.612em
 }
 
