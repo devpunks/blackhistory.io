@@ -4,6 +4,7 @@
   "description": "Blockchain analysis tool used to pull yourself from out of the red into the black",
   "main": "y",
   "scripts": {
+    "start": "PORT=8989 browser-sync --config=./browsersync.es",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
