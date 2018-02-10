@@ -24,7 +24,7 @@ new Chart (ctx, {
 
   , datasets: [
       {
-        borderWidth: 1
+        borderWidth: 2
 
       , label: '# of Votes'
 
