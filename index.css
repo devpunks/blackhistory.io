@@ -1,3 +1,6 @@
+@import './holy-grail.css'
+@import './tags.css'
+
 :root {
   --rem: 3.8vw;
   --margin: 0 2vw;
