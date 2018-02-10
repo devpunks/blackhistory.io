@@ -24,3 +24,7 @@ body > header, body > footer { height: 10vh }
   body > header,
   body > footer  { flex-basis: 100% }
 }
+
+@media (min-width:786px) {
+  body { margin: auto 5vw }
+}
