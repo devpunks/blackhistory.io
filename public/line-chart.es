@@ -9,7 +9,8 @@ Element `line-chart`
     this.context.values
       = [ 13.56, 757, 314, 430, 997, 8367 ]
 
-    console.warn (Historical.since (new Date))
+    console.warn
+      (Historical.since (new Date))
   }
 
   async hydrate () { }
