@@ -5,7 +5,7 @@ Element `line-chart`
 (class extends HTMLElement {
 
   initialize () {
-    console.log ('initializing')
+    console.log ('initializing', this.canvas)
   }
 })
 
