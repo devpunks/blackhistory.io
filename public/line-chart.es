@@ -2,15 +2,17 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  async onconnect (data, symbol = 'BTC', to = 'USD') {
+  async onconnect (data, to = 'USD') {
 
       data = await
-        (new Historical (symbol))
+        (new Historical (this.symbol))
           .convert (to)
-          .since   ( new Date (2012,1,1) )
+          .since   ( this.since )
 
     data = data.Data.map
     (record => { record.time = new Date (record.time * 1000); return record })
+
+//  console.warn (data)
 
     this.context.labels
       = data.map (record => this.label (record.time))
@@ -54,8 +56,11 @@ Element `line-chart`
   get type ()
     { return 'line' }
 
-  get header ()
-    { return this.getAttribute `symbol` }
+  get symbol ()
+    { return this.getAttribute `symbol` || 'BTC' }
+
+  get since ()
+    { return new Date (this.getAttribute `since`) }
 
   get canvas ()
     { return this.select `canvas` }
@@ -68,7 +73,7 @@ Element `line-chart`
 
   get datasets () {
     return [ {
-      label: this.header
+      label: this.symbol
 
     , data: this.values
 
