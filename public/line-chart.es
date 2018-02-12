@@ -55,7 +55,7 @@ Element `line-chart`
     { return 'line' }
 
   get header ()
-    { return 'BTC - Bitcoin' }
+    { return this.getAttribute `symbol` }
 
   get canvas ()
     { return this.select `canvas` }
