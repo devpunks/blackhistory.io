@@ -16,7 +16,7 @@ class Historical {
     return this
   }
 
-  since (date) {
+  async since (date) {
 
     const
       { symbols: symbol, to } = this
