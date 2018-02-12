@@ -20,7 +20,6 @@ Element `line-chart`
   }
 
   serialize () {
-    console.warn ('serializing')
 
     const
       { type, options, sets }
