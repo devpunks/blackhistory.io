@@ -23,7 +23,7 @@ Element `line-chart`
 
   serialize () {
     const
-      { type, options, labels, sets: datasets }
+      { type, options, labels, datasets }
         = this
 
     , data
@@ -55,7 +55,7 @@ Element `line-chart`
   get values ()
     { return this.context.values }
 
-  get sets () {
+  get datasets () {
     return [ {
       label: this.header
 
