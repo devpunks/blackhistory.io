@@ -2,6 +2,14 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
+  get options () {
+
+    return {
+      scales:
+        { yAxes: [ { ticks: { beginAtZero: true } } ] }
+    }
+  }
+
   initialize () {
     console.log ('initializing', this.canvas)
   }
