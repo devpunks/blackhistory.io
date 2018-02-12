@@ -24,7 +24,7 @@ class Historical {
   get endpoint () {
     const
       limit = 6000
-    , aggregate = 30
+    , aggregate = 1 // 30 = month
 
     return `https://min-api.cryptocompare.com/data/histoday?fsym=${this.symbols}&tsym=${this.to}&limit=${limit}&aggregate=${aggregate}&e=CCCAGG`
   }
