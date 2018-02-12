@@ -23,13 +23,11 @@ Element `line-chart`
 
     console.warn (this.context.values, this.context.labels)
 
-  }
-
-  onidle () {
     console.warn (this.serialize ())
     // how often will we rerender this component?
     // We are always creating a new chart.
     new Chart ( this.canvas, this.serialize () )
+
   }
 
   serialize () {
