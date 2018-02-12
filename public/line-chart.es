@@ -50,7 +50,7 @@ Element `line-chart`
     return [ {
       borderWidth: 2
 
-    , label: this.label
+    , label: this.header
 
     , data: this.values
 
