@@ -35,7 +35,8 @@ Element `line-chart`
     return {
       scales:
         { yAxes:
-            [ { ticks: { beginAtZero: true } } ] }
+            [ { ticks:
+                { beginAtZero: true } } ] }
     }
   }
 
