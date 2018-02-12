@@ -2,13 +2,17 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  initialize () {
+  async initialize () {
+    this.context.labels
+      = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
+
     this.context.values
       = [ 13.56, 757, 314, 430, 997, 8367 ]
 
-    this.context.labels
-      = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
+    console.warn (await this.hydrate ())
   }
+
+  async hydrate () {}
 
   onidle () {
     console.warn (this.serialize ())
