@@ -2,15 +2,15 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  initialize () {
+  async initialize () {
+    console.warn
+      (await Historical.since (new Date))
+
     this.context.labels
       = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
 
     this.context.values
       = [ 13.56, 757, 314, 430, 997, 8367 ]
-
-    console.warn
-      (Historical.since (new Date))
   }
 
   async hydrate () { }
