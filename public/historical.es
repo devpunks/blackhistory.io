@@ -17,6 +17,7 @@ class Historical {
   }
 
   since (date) {
+
     const
       { symbols: symbol, to } = this
 
