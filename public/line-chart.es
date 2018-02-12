@@ -14,11 +14,11 @@ Element `line-chart`
 
   serialize () {
     const
-      { type, options, sets }
+      { type, options, labels, sets }
         = this
 
     , data =
-        { labels: this.labels, datasets: sets }
+        { labels, datasets: sets }
 
     return { type, options, data }
   }
