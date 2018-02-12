@@ -60,7 +60,8 @@ Element `line-chart`
     , borderColor:
         [ 'rgba(250,250,250, 0.7)' ]
 
-    , borderWidth: this.getAttribute `border`
+    , borderWidth:
+        this.getAttribute `border`
     } ]
   }
 })
