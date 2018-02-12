@@ -7,6 +7,12 @@ Element `line-chart`
   initialize () {
     console.log ('initializing', this.canvas)
   }
+
+  get type ()
+    { return 'line' }
+
+  get canvas ()
+    { return this.select `canvas` }
 })
 
 
