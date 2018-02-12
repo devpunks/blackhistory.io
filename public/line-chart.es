@@ -2,7 +2,10 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  initialize () { }
+  initialize () {
+    this.context.values
+      = [ 13.56, 757, 314, 430, 997, 8367 ]
+  }
 
   onidle () {
     console.warn (this.serialize ())
@@ -10,7 +13,6 @@ Element `line-chart`
   }
 
   serialize () {
-
     const
       { type, options, sets }
         = this
@@ -22,7 +24,6 @@ Element `line-chart`
   }
 
   get options () {
-
     return {
       scales:
         { yAxes:
@@ -43,7 +44,7 @@ Element `line-chart`
     { return [ 2013, 2014, 2015, 2016, 2017, 2018 ] }
 
   get values ()
-    { return [ 13.56, 757, 314, 430, 997, 8367 ] }
+    { return this.context.values }
 
   get sets () {
     return [ {
