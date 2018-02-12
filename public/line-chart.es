@@ -13,8 +13,6 @@ Element `line-chart`
       = [ 13.56, 757, 314, 430, 997, 8367 ]
   }
 
-  async hydrate () { }
-
   onidle () {
     console.warn (this.serialize ())
     // how often will we rerender this component?
