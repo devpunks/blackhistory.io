@@ -1,5 +1,3 @@
-console.log ('snuggs')
-
 Element `line-chart`
 
 (class extends HTMLElement {
