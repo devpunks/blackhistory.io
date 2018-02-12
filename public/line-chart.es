@@ -33,17 +33,17 @@ Element `line-chart`
     }
   }
 
-  get header ()
-    { return 'BTC - Bitcoin' }
-
   get type ()
     { return 'line' }
+
+  get header ()
+    { return 'BTC - Bitcoin' }
 
   get canvas ()
     { return this.select `canvas` }
 
   get labels ()
-    { return [ 2013, 2014, 2015, 2016, 2017, 2018 ] }
+    { return this.context.labels }
 
   get values ()
     { return this.context.values }
