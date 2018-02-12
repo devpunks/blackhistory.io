@@ -2,17 +2,7 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  get options () {
-
-    return {
-      scales:
-        { yAxes: [ { ticks: { beginAtZero: true } } ] }
-    }
-  }
-
-  initialize () {
-    console.log ('initializing', this.canvas)
-  }
+  initialize () { }
 
   onidle () {
     console.warn (this.serialize ())
@@ -29,6 +19,15 @@ Element `line-chart`
         { labels: this.labels, datasets: sets }
 
     return { type, options, data }
+  }
+
+  get options () {
+
+    return {
+      scales:
+        { yAxes:
+            [ { ticks: { beginAtZero: true } } ] }
+    }
   }
 
   get header ()
@@ -48,9 +47,7 @@ Element `line-chart`
 
   get sets () {
     return [ {
-      borderWidth: 2
-
-    , label: this.header
+      label: this.header
 
     , data: this.values
 
@@ -59,6 +56,8 @@ Element `line-chart`
 
     , borderColor:
         [ 'rgba(250,250,250, 0.7)' ]
+
+    , borderWidth: this.getAttribute `border`
     } ]
   }
 })
