@@ -5,7 +5,7 @@ Element `line-chart`
   async initialize () {
   }
 
-  onconnect (data, symbol = 'BTC', to = 'USD') {
+  async onconnect (data, symbol = 'BTC', to = 'USD') {
 
       data = await
         (new Historical (symbol))
