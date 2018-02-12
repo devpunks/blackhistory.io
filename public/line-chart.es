@@ -14,6 +14,9 @@ Element `line-chart`
     console.log ('initializing', this.canvas)
   }
 
+  get header ()
+    { return 'BTC - Bitcoin' }
+
   get type ()
     { return 'line' }
 
