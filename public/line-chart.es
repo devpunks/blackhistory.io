@@ -26,7 +26,10 @@ Element `line-chart`
       { type, options, labels, sets: datasets }
         = this
 
-    return { type, options, data: { labels, datasets } }
+    , data
+        = { labels, datasets }
+
+    return { type, options, data }
   }
 
   get options () {
