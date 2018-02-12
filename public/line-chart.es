@@ -7,7 +7,7 @@ Element `line-chart`
       data = await
         (new Historical (symbol))
           .convert (to)
-          .since   (new Date)
+          .since   ( new Date (2012,1,1) )
 
     console.warn (data)
 

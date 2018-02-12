@@ -16,15 +16,9 @@ class Historical {
   }
 
   async since (date) {
-
-    const
-      { symbols: symbol, to } = this
-
-    console.warn ('Getting history since date', date, symbol, to)
-
     return await
       fetch   (this.endpoint)
-        .then (response => response.json ())
+      .then (response => response.json ())
   }
 
   get endpoint () {
