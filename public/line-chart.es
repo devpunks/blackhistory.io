@@ -1,3 +1,15 @@
+console.log ('snuggs')
+
+Element `line-chart`
+
+(class extends HTMLElement {
+
+  initialize () {
+    console.log ('initializing')
+  }
+})
+
+
 var
   ctx =
     document.querySelector
