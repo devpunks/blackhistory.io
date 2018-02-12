@@ -2,8 +2,7 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  async initialize () {
-  }
+  async initialize () { }
 
   async onconnect (data, symbol = 'BTC', to = 'USD') {
 
