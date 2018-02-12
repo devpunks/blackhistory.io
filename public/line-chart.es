@@ -1,7 +1,7 @@
 var
   ctx =
     document.querySelector
-      `canvas`.getContext('2d')
+      `canvas`.getContext `2d`
 
 new Chart (ctx, {
 
