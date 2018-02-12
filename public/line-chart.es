@@ -2,9 +2,11 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  async initialize () {
-    console.warn
-      (await Historical.since (new Date))
+  async initialize (symbol = 'BTC', to = 'USD') {
+
+      (new Historical (symbol))
+        .convert (to)
+        .since (new Date)
 
     this.context.labels
       = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
