@@ -13,12 +13,22 @@ Element `line-chart`
     (record => { record.time = new Date (record.time * 1000); return record })
 
     this.context.labels
-      = data.map (record => record.time.getFullYear ())
+      = data.map (record => this.label (record.time))
 
     this.context.values
       = data.map (record => record.close)
 
     new Chart ( this.canvas, this.serialize () )
+  }
+
+  label (date, MONTHS) {
+    MONTHS = [
+      'January', 'February', 'March', 'April',
+      'May', 'June', 'July', 'August', 'September',
+      'October', 'November', 'December'
+    ]
+
+    return `${MONTHS [date.getMonth ()]} ${date.getFullYear ()}`
   }
 
   serialize () {
