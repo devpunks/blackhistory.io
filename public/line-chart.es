@@ -2,20 +2,28 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  async initialize (data, symbol = 'BTC', to = 'USD') {
+  async initialize () {
+  }
+
+  onconnect (data, symbol = 'BTC', to = 'USD') {
 
       data = await
         (new Historical (symbol))
           .convert (to)
           .since   ( new Date (2012,1,1) )
 
-    console.warn (data)
+    data = data.Data.map
+    (record => { record.time = new Date (record.time * 1000); return record })
 
+    console.warn (data)
     this.context.labels
-      = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
+      = data.map (record => record.time.getFullYear ())
 
     this.context.values
-      = [ 13.56, 757, 314, 430, 997, 8367 ]
+      = data.map (record => record.close)
+
+    console.warn (this.context.values, this.context.labels)
+
   }
 
   onidle () {
