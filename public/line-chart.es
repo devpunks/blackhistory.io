@@ -14,6 +14,21 @@ Element `line-chart`
     console.log ('initializing', this.canvas)
   }
 
+  onidle () {
+    console.warn (this.serialize ())
+    new Chart ( this.canvas, this.serialize () )
+  }
+
+  serialize () {
+    console.warn ('serializing')
+
+    const
+      { type, options, sets }
+        = this
+
+    return { type, options, data: sets }
+  }
+
   get header ()
     { return 'BTC - Bitcoin' }
 
