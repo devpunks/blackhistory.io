@@ -2,8 +2,6 @@ Element `line-chart`
 
 (class extends HTMLElement {
 
-  async initialize () { }
-
   async onconnect (data, symbol = 'BTC', to = 'USD') {
 
       data = await
@@ -14,20 +12,13 @@ Element `line-chart`
     data = data.Data.map
     (record => { record.time = new Date (record.time * 1000); return record })
 
-    console.warn (data)
     this.context.labels
       = data.map (record => record.time.getFullYear ())
 
     this.context.values
       = data.map (record => record.close)
 
-    console.warn (this.context.values, this.context.labels)
-
-    console.warn (this.serialize ())
-    // how often will we rerender this component?
-    // We are always creating a new chart.
     new Chart ( this.canvas, this.serialize () )
-
   }
 
   serialize () {
