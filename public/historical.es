@@ -16,11 +16,21 @@ class Historical {
     return this
   }
 
-  async since (date) {
+  since (date) {
 
     const
       { symbols: symbol, to } = this
 
     console.warn ('Getting history since date', date, symbol, to)
+
+    return await fetch (this.endpoint)
+  }
+
+  get endpoint () {
+    const
+      limit = 6000
+    , aggregate = 30
+
+    return `https://min-api.cryptocompare.com/data/histoday?fsym=${this.symbols}&tsym=${this.to}&limit=${limit}&aggregate=${aggregate}&e=CCCAGG'
   }
 }
