@@ -6,7 +6,7 @@ Element `line-chart`
 
       (new Historical (symbol))
         .convert (to)
-        .since (new Date)
+        .since   (new Date)
 
     this.context.labels
       = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
