@@ -4,9 +4,12 @@ Element `line-chart`
 
   async initialize (data, symbol = 'BTC', to = 'USD') {
 
-      data = (new Historical (symbol))
-//        .convert (to)
-//        .since   (new Date)
+      data = await
+        (new Historical (symbol))
+          .convert (to)
+          .since   (new Date)
+
+    console.warn (data)
 
     this.context.labels
       = [ 2013, 2014, 2015, 2016, 2017, 2018 ]
