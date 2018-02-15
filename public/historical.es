@@ -25,6 +25,7 @@ class Historical {
 
     return (await response.json ())
       .Data
+      .filter (record => (record.time * 1000) >= +this)
       .map (timestamp)
   }
 
