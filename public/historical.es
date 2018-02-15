@@ -36,6 +36,14 @@ class Historical {
     , aggregate = 30 // 30 = month
     , endpoint = 'https://min-api.cryptocompare.com/data/histoday'
 
-    return `https://min-api.cryptocompare.com/data/histoday?fsym=${this.symbols}&tsym=${this.to}&limit=${limit}&aggregate=${aggregate}&e=CCCAGG`
+    , querystring = [
+        `e=CCCAGG`
+      , `limit=${limit}`
+      , `tsym=${this.to}`
+      , `fsym=${this.symbols}`
+      , `aggregate=${aggregate}`
+    ].join `&`
+
+    return `${endpoint}?${querystring}`
   }
 }
