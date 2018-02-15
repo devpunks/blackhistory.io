@@ -30,7 +30,7 @@ class Historical {
     data = response.Data.map
     (record => { record.time = new Date (record.time * 1000); return record })
 
-    return response
+    return data
   }
 
   get endpoint () {
