@@ -1,10 +1,3 @@
-// https://min-api.cryptocompare.com/data/histoday
-// e=CCCAGG exchanges
-// fsym=BTC from
-// tsym=USD to
-// limit=2000 max
-// aggregate=30 points
-
 class Historical {
 
   constructor (symbols)
