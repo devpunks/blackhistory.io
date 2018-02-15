@@ -23,7 +23,7 @@ class Historical {
     return await
       fetch (url)
       .then (response => response.json ())
-      .then (this.whatever)
+      .then (this.collect)
   }
 
   whatever (response) {
