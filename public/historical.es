@@ -21,7 +21,7 @@ class Historical {
     const url = `${this.endpoint}` //&toTs=${seconds}`
 
     return await
-      fetch (`${this.endpoint}&toTs=${seconds}`)
+      fetch (url)
       .then (response => response.json ())
       .then (this.whatever)
   }
