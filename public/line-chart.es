@@ -9,6 +9,9 @@ Element `line-chart`
           .convert (to)
           .since   ( this.since )
 
+
+    console.log (data)
+
     this.context.labels
       = data.map (record => this.label (record.time))
 
