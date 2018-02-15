@@ -1,9 +1,9 @@
 // https://min-api.cryptocompare.com/data/histoday
-// e=CCCAGG
-// fsym=BTC
-// tsym=USD
-// limit=6000
-// aggregate=30
+// e=CCCAGG exchanges
+// fsym=BTC from
+// tsym=USD to
+// limit=2000 max
+// aggregate=30 points
 
 class Historical {
 
