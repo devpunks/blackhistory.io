@@ -16,7 +16,7 @@ class Historical {
   }
 
   async since (date) {
-    console.warn (date)
+    console.warn ('since', date)
 
     return await
       fetch   (`${this.endpoint}&toTs=${date.getTime ()/1000}`)
