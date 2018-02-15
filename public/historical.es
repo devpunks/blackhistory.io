@@ -18,7 +18,6 @@ class Historical {
   }
 
   async collect (response, json) {
-
     const
       timestamp = record =>
         (record.time = new Date (record.time * 1000))
