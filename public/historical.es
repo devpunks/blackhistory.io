@@ -16,7 +16,9 @@ class Historical {
   }
 
   async since ( date, seconds = (date.getTime () / 1000) ) {
-    console.warn ('since', date)
+    console.warn ('since', +date)
+
+    const url = `${this.endpoint}` //&toTs=${seconds}`
 
     return await
       fetch (`${this.endpoint}&toTs=${seconds}`)
