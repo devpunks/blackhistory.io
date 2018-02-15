@@ -21,6 +21,13 @@ class Historical {
     return await
       fetch   (`${this.endpoint}&toTs=${date.getTime ()/1000}`)
       .then (response => response.json ())
+      .then (this.whatever)
+  }
+
+  whatever (response) {
+    console.log (response.Data)
+
+    return response
   }
 
   get endpoint () {
@@ -28,6 +35,6 @@ class Historical {
       limit = 2000
     , aggregate = 30 // 30 = month
 
-    return `https://min-api.cryptocompare.com/data/histoday?fsym=${this.symbols}&tsym=${this.to}&limit=${limit}&aggregate=${aggregate}&e=CCCAGG`
+    return `//min-api.cryptocompare.com/data/histoday?fsym=${this.symbols}&tsym=${this.to}&limit=${limit}&aggregate=${aggregate}&e=CCCAGG`
   }
 }
