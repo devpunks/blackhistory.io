@@ -19,7 +19,7 @@ class Historical {
     console.warn ('since', date)
 
     return await
-      fetch   (`${this.endpoint}&toTs=${date.getTime ()/1000}`)
+      fetch (`${this.endpoint}&toTs=${seconds}`)
       .then (response => response.json ())
       .then (this.whatever)
   }
