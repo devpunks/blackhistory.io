@@ -28,7 +28,12 @@ class Historical {
 
   async collect (response, json) {
 
-    return json
+    const
+      timestamp = record =>
+        (record.time = new Date (record.time * 1000))
+        && record
+
+    return (await response.json ())
       .Data
       .map (record => { record.time = new Date (record.time * 1000); return record })
   }
