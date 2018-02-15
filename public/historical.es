@@ -26,8 +26,9 @@ class Historical {
       .then (this.collect)
   }
 
-  whatever (response) {
-    console.log (response.Data)
+  collect (response, data) {
+    data = response.Data.map
+    (record => { record.time = new Date (record.time * 1000); return record })
 
     return response
   }
