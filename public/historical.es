@@ -35,10 +35,11 @@ class Historical {
 
     return (await response.json ())
       .Data
-      .map (record => { record.time = new Date (record.time * 1000); return record })
+      .map (timestamp)
   }
 
   get endpoint () {
+
     const
       aggregate = 30 // 30 = month
     , limit     = 2000
