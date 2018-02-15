@@ -15,7 +15,7 @@ class Historical {
     return this
   }
 
-  async since (date) {
+  async since ( date, seconds = (date.getTime () / 1000) ) {
     console.warn ('since', date)
 
     return await
