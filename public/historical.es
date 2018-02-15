@@ -28,7 +28,9 @@ class Historical {
   async collect (response, data) {
     const json = await response.json ()
 
-    return data
+    return json
+      .Data
+      .map (record => { record.time = new Date (record.time * 1000); return record })
   }
 
   get endpoint () {
