@@ -44,6 +44,6 @@ class Historical {
       , `aggregate=${aggregate}`
     ].join `&`
 
-    return `${endpoint}?${querystring}`
+    return `${endpoint}?${query}`
   }
 }
