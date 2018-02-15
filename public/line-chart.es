@@ -9,11 +9,6 @@ Element `line-chart`
           .convert (to)
           .since   ( this.since )
 
-    data = data.Data.map
-    (record => { record.time = new Date (record.time * 1000); return record })
-
-//  console.warn (data)
-
     this.context.labels
       = data.map (record => this.label (record.time))
 
