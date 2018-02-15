@@ -14,7 +14,7 @@ class Historical {
 
     return await
       fetch (url)
-      .then (this.collect)
+      .then (this.collect.bind (date))
   }
 
   async collect (response, json) {
