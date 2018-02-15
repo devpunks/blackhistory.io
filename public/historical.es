@@ -26,8 +26,7 @@ class Historical {
       .then (this.collect)
   }
 
-  async collect (response, data) {
-    const json = await response.json ()
+  async collect (response, json) {
 
     return json
       .Data
