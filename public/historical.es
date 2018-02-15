@@ -30,7 +30,6 @@ class Historical {
   }
 
   get endpoint () {
-
     const
       aggregate = 30 // 30 = month
     , limit     = 2000
