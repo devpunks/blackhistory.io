@@ -32,9 +32,9 @@ class Historical {
 
   get endpoint () {
     const
-      limit = 2000
-    , aggregate = 30 // 30 = month
-    , endpoint = 'https://min-api.cryptocompare.com/data/histoday'
+      aggregate = 30 // 30 = month
+    , limit     = 2000
+    , endpoint  = 'https://min-api.cryptocompare.com/data/histoday'
 
     , query = [
         `e=CCCAGG`
