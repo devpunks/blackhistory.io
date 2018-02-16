@@ -37,7 +37,7 @@ class Historical {
     , endpoint  = 'https://min-api.cryptocompare.com/data/histoday'
 
     , query = [
-        `e=CCCAGG`
+        `e=${exchanges}`
       , `limit=${limit}`
       , `tsym=${this.to}`
       , `fsym=${this.symbols}`
