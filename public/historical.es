@@ -31,7 +31,7 @@ class Historical {
 
   get endpoint () {
     const
-      aggregate = 30 // 30 = month
+      aggregate = 15 // 30 = month
     , limit     = 2000
     , endpoint  = 'https://min-api.cryptocompare.com/data/histoday'
 
