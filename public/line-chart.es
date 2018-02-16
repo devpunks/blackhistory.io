@@ -75,8 +75,7 @@ Element `line-chart`
 
     , data: this.values
 
-    , backgroundColor:
-        [ 'rgba(255, 255, 255, 0.1)' ]
+    // http://www.chartjs.org/docs/latest/charts/line.html
 
     , borderColor:
         [ 'rgba(250,250,250, 0.7)' ]
