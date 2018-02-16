@@ -6,8 +6,8 @@ Element `line-chart`
 
     data = await
       (new Historical (this.symbol))
-        .convert (to)
-        .since   ( this.since )
+      .convert (to)
+      .since (this.since)
 
     this.context.labels
       = data.map (record => this.label (record.time))
