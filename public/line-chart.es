@@ -15,7 +15,8 @@ Element `line-chart`
     this.context.values
       = data.map (record => record.close)
 
-    new Chart ( this.canvas, this.serialize () )
+    new Chart
+      ( this.canvas, this.serialize () )
   }
 
   label (date, MONTHS) {
