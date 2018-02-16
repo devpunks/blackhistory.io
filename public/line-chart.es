@@ -4,13 +4,10 @@ Element `line-chart`
 
   async onconnect (data, to = 'USD') {
 
-      data = await
-        (new Historical (this.symbol))
-          .convert (to)
-          .since   ( this.since )
-
-
-    console.log (data)
+    data = await
+      (new Historical (this.symbol))
+        .convert (to)
+        .since   ( this.since )
 
     this.context.labels
       = data.map (record => this.label (record.time))
