@@ -17,7 +17,7 @@ class Historical {
       .then (this.collect.bind (date))
   }
 
-  async collect (response, json) {
+  async collect (response) {
     const
       timestamp = record =>
         (record.time = new Date (record.time * 1000))
