@@ -42,7 +42,9 @@ Element `line-chart`
 
   get options () {
     return {
-      scales:
+      hover:
+        { mode: 'x' }
+    , scales:
         { yAxes:
             [ { ticks:
                 { beginAtZero: true } } ] }
