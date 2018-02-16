@@ -77,8 +77,13 @@ Element `line-chart`
 
     // http://www.chartjs.org/docs/latest/charts/line.html
 
-    , borderColor:
-        [ 'rgba(250,250,250, 0.7)' ]
+    , lineTension: 0
+
+    , pointRadius: 1
+
+    , pointHoverRadius: 20
+
+    , borderJoinStyle: 'miter'
 
     , borderWidth:
         this.getAttribute `border`
