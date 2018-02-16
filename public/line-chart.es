@@ -37,7 +37,7 @@ Element `line-chart`
     , data
         = { labels, datasets }
 
-    return { type, options, data }
+    return { type, data, options }
   }
 
   get options () {
