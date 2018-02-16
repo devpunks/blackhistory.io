@@ -87,6 +87,12 @@ Element `line-chart`
 
     , borderWidth:
         this.getAttribute `border`
+
+    , borderColor:
+        [ 'rgba(250,250,250, 0.7)' ]
+
+    , backgroundColor:
+        [ 'rgba(255, 255, 255, 0.1)' ]
     } ]
   }
 })
