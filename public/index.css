@@ -47,14 +47,14 @@ html {
 }
 
 html * {
-  margin:0;
+  margin: 0;
   padding: 0.02px 0
 }
 
 body { padding: 1.612em 0 }
 
 body > *, body > header > p {
-  margin: var(--margin);
+  margin: 0;
   margin-bottom: 1.612em
 }
 

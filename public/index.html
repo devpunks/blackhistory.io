@@ -2,17 +2,33 @@
 
 <title>BlackHistory.io</title>
 
+<meta charset=utf-8>
+
+<meta
+  name=viewport
+  content=
+   'initial-scale=1,
+    minimum-scale=1,
+    maximum-scale=1,
+    user-scalable=yes,
+    width=device-width,
+    height=device-height'
+>
 <link
   as=style
   href=index.css
   rel='preload stylesheet'
 >
 
+<script src=./historical.es></script>
+<script src=//unpkg.com/snuggsi></script>
+
 
 <header>
   <a
+    rel=help
     target=investopedia
-    title='What does the term Black mean?'
+    title='View Black on Investopedia.com'
     href=//investopedia.com/terms/b/black.asp>
     Black
   </a>
@@ -21,11 +37,66 @@
 
   <em>
     Pull yourself out of the
-    <a target=investopedia title='What does the term Red mean?' href=https://www.investopedia.com/terms/r/red.asp>Red</a>
+    <a
+      rel=help
+      target=investopedia
+      title='View Red on Investopedia.com'
+      href=https://investopedia.com/terms/r/red.asp>Red</a>
   </em>
 </header>
 
+
 <main>
+
+<line-chart symbol=BTC since=2015-07-01 border=3>
+  <!-- https://investopedia.com/terms/h/historical-cost.asp -->
+  <!-- https://investopedia.com/terms/h/historic-pricing.asp -->
+  <header>{symbol}
+    <a
+      rel=help
+      target=investopedia
+      title='View Historic Pricing on Investopedia.com'
+      href=https://www.investopedia.com/terms/h/historic-pricing.asp>
+      Historic Price
+    </a>
+  </header>
+
+  <canvas class=black></canvas>
+
+  <style>
+  line-chart {
+    width: 100vw;
+    height: 40vh;
+    margin: 1em 0;
+    display: block;
+    background: red;
+    text-align: center;
+    outline: 5px dashed #aaa
+  }
+
+  line-chart header {
+    font-size: 1.5em;
+    line-height: 1.6em
+  }
+
+  canvas {
+    width: 100vw;
+    height: 70vh;
+    background: green
+  }
+
+  canvas.black
+    { background: black }
+
+  canvas.red
+    { background: rgba(150,10,10,0.9) }
+
+  </style>
+
+  <script src=https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.1/Chart.bundle.min.js></script>
+  <script src=./line-chart.es></script>
+</line-chart>
+
 
   <figure class=frame>
     <iframe src=https://www.youtube.com/embed/oxMc9uZ28g0 frameborder=0 allowfullscreen></iframe>
@@ -35,7 +106,8 @@
 
 
 <footer>
-  Made with ❤️ by th OSS  blockchain communiy
+  Made with❤️ by the
+  <abbr title='Open Source Software'>OSS</abbr> blockchain community
   <a target=github href=//github.com/devpunks/blackhistory.io>View Source Code on Github</a>
 
   <em>&copy; Copyright 2018</em>
