@@ -44,8 +44,10 @@ Element `line-chart`
     return {
       hover:
         { mode: 'x' }
-   ,  tooltips:
-        { mode: 'x' }
+    , tooltips: {
+        mode: 'x'
+      , intersect: false
+      }
     , scales:
         { yAxes:
             [ { ticks:
