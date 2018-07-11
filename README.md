@@ -10,6 +10,8 @@
 
 ## Black History I.Q. test
 
+  - God's prophecy Genesis 15:13
+
 
 ### Black Test
 
