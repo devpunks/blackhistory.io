@@ -5,7 +5,8 @@
   - The meaning of Ham - https://www.youtube.com/watch?v=OUb1ev4uVuQ
     - irony Ham was redefined to Pork.
 
-  - Kush (Kingdom of Kush: Egypt, Ethiopia, Sudan)
+  - Are black people cursed? https://www.youtube.com/watch?v=Dwf2GFcoO0c
+    - Kush (Kingdom of Kush: Egypt, Ethiopia, Sudan)
 
 
 ## Black History I.Q. test
