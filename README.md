@@ -17,8 +17,12 @@
 
   A multiple choice test to determine how much a visitor knows about American Black History.
 
+  - Blacks oppressed other Africans (at that time)
+  - Babalonyans concquer judeah
+
   - Pharoah
   - Kushites
+    - Nymrod - Child of Kush
   - Hebrew (Black) - Moses raised in home of pharoah.
 
 
