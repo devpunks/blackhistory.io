@@ -12,3 +12,8 @@
 ### Black Test
 
   A multiple choice test to determine how much a visitor knows about American Black History.
+
+
+### African Test
+
+  A multiple choice test to determine how much a visitor knows about American Black History.
