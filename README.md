@@ -17,6 +17,10 @@
 
   A multiple choice test to determine how much a visitor knows about American Black History.
 
+  - Pharoah
+  - Kushites
+  - Hebrew (Black) - Moses raised in home of pharoah.
+
 
 ### African Test
 
