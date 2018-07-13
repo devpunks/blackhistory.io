@@ -8,6 +8,9 @@
   - Are black people cursed? https://www.youtube.com/watch?v=Dwf2GFcoO0c
     - Kush (Kingdom of Kush: Egypt, Ethiopia, Sudan)
 
+  - The incredible Story of Olaudah Equiano
+    - https://www.youtube.com/watch?v=EV7CG_Eyi1M&list=WL&index=59&t=0s
+  
 
 ## Black History I.Q. test
 
