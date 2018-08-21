@@ -87,7 +87,7 @@
 
 ### CO-INTEL-PRO
 
-#### Affected groups
+#### Effected groups
 
   - NAACP
   - African-American Civil Rights Movement
