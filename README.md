@@ -55,6 +55,8 @@
 
 ## Timeline
 
+## 1963 Birmingham Campaign - https://en.wikipedia.org/wiki/Birmingham_campaign
+
 ## 1890
 
   - White Primaries - https://www.revolvy.com/page/White-primaries
