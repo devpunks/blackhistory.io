@@ -55,6 +55,11 @@
 
 ## Timeline
 
+## 1970s
+
+### New Left
+
+
 ## 1966-1977 Black Panther Party
 
   "Politics is war without bloodshed. And war is politics with bloodshed." - Fred Hampton
