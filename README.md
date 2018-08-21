@@ -55,9 +55,14 @@
 
 ## Timeline
 
-## 1965 Bloody Sunday - https://www.youtube.com/watch?v=TYtO7zj2zz8
+## 1966 Black Panther Party
+  - https://www.youtube.com/watch?v=KPN8LHVeFYA
 
-   - Selma https://www.youtube.com/watch?v=smx-Sk3PzzI
+
+## 1965
+  - Bloody Sunday - https://www.youtube.com/watch?v=TYtO7zj2zz8
+
+  - Selma https://www.youtube.com/watch?v=smx-Sk3PzzI
 
 
 ## 1963 Birmingham Campaign - https://en.wikipedia.org/wiki/Birmingham_campaign
