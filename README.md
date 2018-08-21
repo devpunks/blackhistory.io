@@ -2,6 +2,8 @@
 
 ## Links
 
+  - Civil Rights Movement
+    - https://en.wikipedia.org/wiki/Civil_rights_movement_(1896%E2%80%931954)
   - https://en.wikipedia.org/wiki/White_League
   - Exodusters https://en.wikipedia.org/wiki/Exodusters
   - Robert Reed Church - https://en.wikipedia.org/wiki/Robert_Reed_Church
