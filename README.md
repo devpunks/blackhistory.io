@@ -72,6 +72,7 @@
 
   - Huey P. Newton
     - https://www.youtube.com/watch?v=jSpMul4ZN7Y
+    - Footage - https://www.youtube.com/watch?v=4UQgfgbX4RE
 
   - Elaine Brown
     - On Feminists - https://www.youtube.com/watch?v=Ld0WXL4qe3Q
