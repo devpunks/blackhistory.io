@@ -55,6 +55,12 @@
 
 ## Timeline
 
+## 1890
+
+  - White Primaries - https://www.revolvy.com/page/White-primaries
+
 ### Reconstruction
 
   - Disenfranchisement - https://en.wikipedia.org/wiki/Disenfranchisement_after_the_Reconstruction_Era
+
+
