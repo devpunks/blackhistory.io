@@ -59,6 +59,8 @@
 
 ### New Left
 
+  - Operation CHAOS https://www.youtube.com/watch?v=c6IEhHfcar4
+
 
 ## 1966-1977 Black Panther Party
 
