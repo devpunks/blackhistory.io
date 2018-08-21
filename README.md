@@ -67,6 +67,7 @@
 
   - Elaine Brown
     - https://www.youtube.com/watch?v=oC-JbT9ic7g
+    - https://www.youtube.com/watch?v=YyWGZX1U2aw
 
 
 ## 1965
