@@ -3,6 +3,7 @@
 ## Links
 
   - Golden age of black entrepreneurship https://en.wikipedia.org/wiki/Civil_rights_movement_(1896%E2%80%931954)#The_golden_age_of_black_entrepreneurship
+  - Exodusters https://en.wikipedia.org/wiki/Exodusters
 
 ## Videos
 
