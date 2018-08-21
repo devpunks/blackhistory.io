@@ -69,6 +69,7 @@
   - https://www.youtube.com/watch?v=zeQUrUSFszo
   - https://www.youtube.com/watch?v=KPN8LHVeFYA
   - Fred Hampton - https://en.wikipedia.org/wiki/Fred_Hampton
+
   - Huey P. Newton
     - https://www.youtube.com/watch?v=jSpMul4ZN7Y
 
