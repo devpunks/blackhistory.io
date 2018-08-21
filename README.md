@@ -66,8 +66,8 @@
     - https://www.youtube.com/watch?v=jSpMul4ZN7Y
 
   - Elaine Brown
-    - https://www.youtube.com/watch?v=oC-JbT9ic7g
     - Seize the Time - https://www.youtube.com/watch?v=YyWGZX1U2aw
+    - The End of Silence - https://www.youtube.com/watch?v=oC-JbT9ic7g
 
 
 ## 1965
