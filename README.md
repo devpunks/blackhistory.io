@@ -57,6 +57,8 @@
 
 ## 1966 Black Panther Party
 
+  "Politics is war without bloodshed. And war is politics with bloodshed." - Fred Hampton
+
   - https://www.youtube.com/watch?v=zeQUrUSFszo
   - https://www.youtube.com/watch?v=KPN8LHVeFYA
   - Fred Hampton - https://en.wikipedia.org/wiki/Fred_Hampton
