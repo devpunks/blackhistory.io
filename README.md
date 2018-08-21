@@ -83,6 +83,16 @@
   - Bloody Sunday - https://www.youtube.com/watch?v=TYtO7zj2zz8
 
 
+## 1950s
+
+### CO-INTEL-PRO
+
+#### Affected groups
+
+  - African-American Civil Rights Movement
+  - NAACP
+  - National Lawyers Guild
+
 ## 1963 Birmingham Campaign - https://en.wikipedia.org/wiki/Birmingham_campaign
 
 ## 1890
