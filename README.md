@@ -61,6 +61,8 @@
 
 ### Reconstruction
 
-  - Disenfranchisement - https://en.wikipedia.org/wiki/Disenfranchisement_after_the_Reconstruction_Era
+  - Disenfranchisement
+    - https://www.revolvy.com/page/Disenfranchisement-after-the-Reconstruction-Era
+    - https://en.wikipedia.org/wiki/Disenfranchisement_after_the_Reconstruction_Era
 
 
