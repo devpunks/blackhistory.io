@@ -51,3 +51,10 @@
 ### African Test
 
   A multiple choice test to determine how much a visitor knows about American Black History.
+
+
+## Timeline
+
+### Reconstruction
+
+  - Disenfranchisement - https://en.wikipedia.org/wiki/Disenfranchisement_after_the_Reconstruction_Era
