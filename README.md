@@ -65,6 +65,9 @@
   - Huey P. Newton
     - https://www.youtube.com/watch?v=jSpMul4ZN7Y
 
+  - Elaine Brown
+    - https://www.youtube.com/watch?v=oC-JbT9ic7g
+
 
 ## 1965
 
