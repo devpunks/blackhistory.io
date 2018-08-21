@@ -55,13 +55,15 @@
 
 ## Timeline
 
-## 1966 Black Panther Party
+## 1966-1977 Black Panther Party
 
   "Politics is war without bloodshed. And war is politics with bloodshed." - Fred Hampton
 
   - https://www.youtube.com/watch?v=zeQUrUSFszo
   - https://www.youtube.com/watch?v=KPN8LHVeFYA
   - Fred Hampton - https://en.wikipedia.org/wiki/Fred_Hampton
+  - Huey P. Newton
+    - https://www.youtube.com/watch?v=jSpMul4ZN7Y
 
 
 ## 1965
