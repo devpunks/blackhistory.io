@@ -12,6 +12,11 @@
   - Golden age of black entrepreneurship https://en.wikipedia.org/wiki/Civil_rights_movement_(1896%E2%80%931954)#The_golden_age_of_black_entrepreneurship
   - Party Switch - http://factmyth.com/factoids/democrats-and-republicans-switched-platforms/
 
+### People
+
+  - Booker T. Washington - https://en.wikipedia.org/wiki/Booker_T._Washington
+
+
 ## Videos
 
   - The meaning of Ham - https://www.youtube.com/watch?v=OUb1ev4uVuQ
