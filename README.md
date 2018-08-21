@@ -14,6 +14,7 @@
 
 ### People
 
+  - Frederick Douglass - https://en.wikipedia.org/wiki/Frederick_Douglass
   - Booker T. Washington - https://en.wikipedia.org/wiki/Booker_T._Washington
 
 
