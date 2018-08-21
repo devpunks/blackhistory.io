@@ -57,6 +57,7 @@
 
 ## 1966 Black Panther Party
 
+  - https://www.youtube.com/watch?v=zeQUrUSFszo
   - https://www.youtube.com/watch?v=KPN8LHVeFYA
   - Fred Hampton - https://en.wikipedia.org/wiki/Fred_Hampton
 
