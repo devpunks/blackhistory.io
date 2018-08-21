@@ -90,7 +90,10 @@
 
 ## 1960s
 
+  John F. Kennedy
+
   - 60s Counter Culture - https://en.wikipedia.org/wiki/Counterculture_of_the_1960s
+  - 1963 Kennedy Assasination
 
 
 ## 1950s
