@@ -89,8 +89,8 @@
 
 #### Affected groups
 
-  - African-American Civil Rights Movement
   - NAACP
+  - African-American Civil Rights Movement
   - National Lawyers Guild
 
 
