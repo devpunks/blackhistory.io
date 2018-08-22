@@ -99,6 +99,10 @@
 
 ## 1950s
 
+  Eisenhower
+  - Civil Rights - https://www.history.com/topics/black-history/civil-rights-movement
+  - Civil Rights Act of 1957 - https://www.history.com/topics/black-history/civil-rights-act
+
 
 ### CO-INTEL-PRO
 
