@@ -75,6 +75,9 @@
     - Footage - https://www.youtube.com/watch?v=4UQgfgbX4RE
 
   - Elaine Brown
+
+    - BLack Lives Matter Is Not A Real Movement
+       - https://www.youtube.com/watch?v=euIvFLroN9A
     - On Feminists - https://www.youtube.com/watch?v=Ld0WXL4qe3Q
     - Seize the Time - https://www.youtube.com/watch?v=YyWGZX1U2aw
     - The End of Silence - https://www.youtube.com/watch?v=oC-JbT9ic7g
